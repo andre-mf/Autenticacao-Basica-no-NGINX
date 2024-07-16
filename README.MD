@@ -73,7 +73,7 @@ server {
     location / {
         auth_basic "Restricted Area";
         auth_basic_user_file /etc/nginx/.htpasswd;
-        root /var/www/html;
+        root   /usr/share/nginx/html;
         index index.html;
     }
 }
